@@ -1,0 +1,14 @@
+* {
+  outline: 1px solid red; }
+
+.hero-section {
+  background-image: url(../images/slider1.jpg); }
+
+.trademarks {
+  background-image: url(../images/client-bg.jpg); }
+
+.media img {
+  width: 100px;
+  height: 100px; }
+
+/*# sourceMappingURL=main.css.map */
