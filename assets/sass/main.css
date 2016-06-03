@@ -1,14 +1,124 @@
-* {
-  outline: 1px solid red; }
+i {
+  font-size: 25px; }
+
+.ib {
+  display: inline-block; }
+
+.tab {
+  margin-top: 10px; }
+
+.price-red {
+  color: #cc0000; }
+
+/*{outline: 1px solid red;
+}*/
+.user-nav {
+  background-color: #F4F4F4;
+  padding: 10px;
+  color: #333; }
+
+#header {
+  background-color: color-white;
+  padding: 40px;
+  color: #333; }
+
+.iconbig {
+  font-size: 40px; }
+
+.menu {
+  background-color: #F4F4F4; }
+
+.nav-menu li {
+  margin-left: 60px;
+  margin-top: 23px; }
+
+.nav-menu li a {
+  color: #000;
+  text-decoration: none; }
+
+.nav-menu li a:hover {
+  background-color: #cc0000;
+  color: #fff;
+  padding: 20px; }
+
+.shop-menu {
+  color: #fff;
+  background-color: #4d3e33;
+  margin-right: 70px;
+  padding: 0; }
+
+.shop-list {
+  width: 250px; }
+
+.shop-list img {
+  margin: 10px; }
 
 .hero-section {
-  background-image: url(../images/slider1.jpg); }
+  background-image: url(../images/slider1.jpg);
+  background-size: cover;
+  height: auto;
+  padding: 100px 250px; }
 
-.trademarks {
-  background-image: url(../images/client-bg.jpg); }
+.user-show {
+  margin: auto; }
 
-.media img {
-  width: 100px;
-  height: 100px; }
+.user-show h1 {
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: none; }
+
+.user-show h3 {
+  color: #fff;
+  letter-spacing: 0.3em; }
+
+hr {
+  border: 0;
+  border-top: 4px double #4d3e33;
+  width: 100%; }
+
+.next-offer img {
+  width: 100%;
+  margin-top: 20px; }
+
+.brands {
+  background-image: url(../images/client-bg.jpg);
+  background-size: cover;
+  height: auto;
+  padding: 80px 40px; }
+
+.sub-menu li a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px; }
+
+.sub-menu li a:hover {
+  color: #000; }
+
+.menu-shop {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.text-red {
+  color: color-red; }
+
+.footer {
+  background-color: #F4F4F4; }
+
+.footer small {
+  color: #000; }
+
+.footer i {
+  color: #000; }
+
+.shipp .col-md-4 {
+  border: 1px solid #F4F4F4; }
+
+.detail-pay {
+  background-color: #000; }
 
 /*# sourceMappingURL=main.css.map */

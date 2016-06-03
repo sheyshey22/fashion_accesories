@@ -1,15 +1,132 @@
-*{outline: 1px solid red;
+$color-default:#F4F4F4;
+$color-white:#fff;
+$color-dark:#4d3e33;
+$font-default:#333;
+$font-bottom:#fff;
+$color-red:#cc0000;
+i{
+	font-size:25px;	
 }
-img{
-
+.ib{
+	display:inline-block
+}
+.tab{
+	margin-top:10px;
+}
+.price-red{
+	color:$color-red;
+}
+/*{outline: 1px solid red;
+}*/
+.user-nav
+{
+	background-color:$color-default;
+	padding:10px;
+	color:$font-default;
+}
+#header{
+	background-color:color-white;
+	padding:40px;
+	color:$font-default
+}
+.iconbig{
+	font-size: 40px;
+}
+.menu{
+	background-color:$color-default;
+}
+.nav-menu li{
+	margin-left:60px;
+	margin-top:23px;
+}
+.nav-menu li a{
+	color:#000;
+	text-decoration:none;
+}
+.nav-menu li a:hover{
+	background-color:$color-red;
+	color:$color-white;
+	padding:20px;
+}
+.shop-menu{
+	color:$font-bottom;
+	background-color:$color-dark;
+	margin-right:70px;
+	padding:0;
+}
+.shop-list{
+	width:250px;
+}
+.shop-list img{
+	margin:10px;
 }
 .hero-section{
 	background-image:url(../images/slider1.jpg);
+	background-size:cover;
+	height:auto;
+	padding: 100px 250px;
+
 }
-.trademarks{
-	background-image:url(../images/client-bg.jpg)
+.user-show{
+	margin:auto;
 }
-.media img{
-	width: 100px;
-    height: 100px;
+.user-show h1{
+	border:3px solid $color-white;
+	color:$color-white;
+	font-size:40px;
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:none;
+}
+.user-show h3{
+	color:$color-white;
+	letter-spacing:0.3em;
+}
+hr{
+	border: 0 ; 
+	border-top: 4px double $color-dark; 
+	width: 100%;
+}
+.next-offer img{
+	width:100%;
+	margin-top:20px;
+}
+.brands{
+	background-image:url(../images/client-bg.jpg);
+	background-size:cover;
+	height:auto;
+	padding:80px 40px;
+}
+.sub-menu li a{
+	color:$font-default;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:15px;
+}
+.sub-menu li a:hover{
+	color:#000;
+}
+.menu-shop{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.text-red{
+	color:color-red;
+}
+.footer{
+	background-color:$color-default;
+}
+.footer small{
+	color:#000;
+}
+.footer i{
+	color:#000;
+}
+.shipp .col-md-4{
+	
+	border: 1px solid $color-default;
+}
+.detail-pay{
+	background-color:#000;
 }
